@@ -1,1 +1,1 @@
-- Explain what git clone does, in your own words
+git clone command donwloads a copy of a repository, into your computer. The syntax is git clone 'URL', URL being the the location of the directory you want to clone.
