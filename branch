@@ -1,1 +1,4 @@
-- Explain what a branch is, in your own words
+Each time that we commit git creates several objects, one of this objects is the commit object.
+The commit object has a pointer to the snapshot of the code at that moment in time and a pointer to the previous commit.
+A branch is a movable pointer to one of this commit objects. It's movable because you can change at what commit object is pointing at.
+As well you can create a branch with git branch 'branch_name' and move between branches with git checkout 'branch_name'
